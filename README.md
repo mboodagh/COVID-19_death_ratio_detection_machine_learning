@@ -19,3 +19,9 @@ The effective date of the executive orders by the governors, requiring mask mand
 It is a hard task to directly determine the exact percentage of the population that follows the MM order and uses face coverings. As a result, it is necessary to come up with features that can indirectly capture how likely is an individual to follow the recommended practice. For bridging this gap, four main features, including county population, median household income, education level and mask usage based on New York Times survey the are chosen as primary indicators. Furthermore, we used survey data provided by the New York Times that quantifies the mask usage from 7/2/2020 to 7/14/2020. Since the survey timeline lies within the month after the MM order for all three studied states, it is valid to use its data for our purpose.
 
 Classic ML methods of Logistic Regression and Naive Bayes classifier are used. In addition, ensemble learning-based models, Random Forest and Extra Trees, are also analyzed. Moreover, the extreme boosting method, XGBoost is explored. Other methods such as Support Vector Machine, K-Nearest Neighbors, Decision Trees, and Neural Network are additionally used for prediction of effect of Mask Mandate on mortality rate.
+
+# Results
+
+The change in death ratio from one month before to one month after the date of mandating face-covering in the three states is visualized for each county as shown in the below figure.
+
+
