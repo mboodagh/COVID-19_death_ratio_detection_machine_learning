@@ -24,4 +24,13 @@ Classic ML methods of Logistic Regression and Naive Bayes classifier are used. I
 
 The change in death ratio from one month before to one month after the date of mandating face-covering in the three states is visualized for each county as shown in the below figure.
 
+![fig2](https://user-images.githubusercontent.com/60017299/143769413-d032e425-4192-418d-aaf4-8bf8c47ef4d7.png)
+
+The effect of each feature on the change of death ratio is visualized by the correlation heatmap provided in the below figure. Each row of the complete correlation matrix is an appropriate indicator of how correlated that feature is with the change in death ratio. A more negative value implies that the increase of that specific feature is positively correlated by a decrease in the change of death ratio. For instance,  an increase in population, median income, and education level would result in a decrease in the change of death ratio.
+
+
+
+
+Furthermore, to get some insight about the observed pattern in table \ref{death_rates}, the average percentage of people who use masks with different frequencies across all the counties experiencing both increase and decrease in their death ratios is illustrated in fig. \ref{mask_rates}. As expected, the average percentage of people who always wear a mask (fig. \ref{mask_always}) is slightly higher for the decreasing category, but in both categories, the values are the smallest for Oregon. Moreover, the average percentage of people who never use a mask (fig. \ref{mask_never}) is lower for the decreasing category in all 3 states, which is also intuitively sensible. Although there are no prominent and consistent patterns for the remaining mask usage frequencies, these observations could implicitly and partially describe why there is a small increase in the overall death ratio in Oregon.} However, since the mask usage data is from an NYT survey over a limited period (12 days), the observations in fig. \ref{mask_rates} cannot explain the entire underlying phenomenon. 
+
 
