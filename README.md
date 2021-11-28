@@ -1,1 +1,3 @@
-# COVID-19_death_ratio_detection_machine_learning
+# General description
+
+To stave off the spread of the COVID-19, the authorities in the US employed different strategies, including the mask mandate order issued by the states' governors. In the current work, we defined a parameter called the average death ratio as the monthly average of the number of daily deaths to the monthly average number of daily cases. We utilized survey data to quantify people's abidance by the mask mandate order. Additionally, we implicitly addressed the extent to which people abide by the mask mandate order that may depend on some parameters like population, income, and education level. Using different machine learning classification algorithms, we investigated how the decrease or increase in death ratio for the counties in the US West Coast correlates with the input parameters.
