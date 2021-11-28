@@ -34,6 +34,12 @@ Furthermore, to get some insight about the possible patterns in the death ratios
 
 <img width="619" alt="Screen Shot 2021-11-28 at 8 34 16 AM" src="https://user-images.githubusercontent.com/60017299/143770087-e464441a-6355-442c-802e-5baf6835a929.png">
 
+All implemented algorithms in this study are capable of providing us with high classification accuracy, i.e,  of predicting whether a county has experienced a decrease in its death ratio after the MM order or an increase. As provided in below table, it can be seen that, in general, most of the algorithms have relatively high accuracy scores for the test set. Despite the lack of sufficient training data set, Naive Bayes has an accuracy of 94%, and Random Forest, XGBoost, and Decision Tree have an accuracy of 88%. The random search method has been done to tune these hyper-parameters for XGBoost, and grid search is used for Random Forest and Decicion Tree. Naive Bayes does not have any important hyper-parameter because of which, it has the capability of being generalized well. Besides, Random Forest, as a bagging method, and XGBoost, as a boosting method, have the popularity of rarely over-fitting the data. 
+
+
+
+Additionally, to further compare the predictive power of the algorithms, the receiver operating characteristic ROC curve is shown in fig. \ref{ROC}. The ROC curve shows the performance of a classification model at all classification thresholds. The diagonal red dashed lines demonstrate the no-discrimination line, which corresponds to the values of a random guess. As evident, for all algorithms, the ROC curve is above the line of no-discrimination. The area under ROC Curve (AUC) values demonstrate an aggregate measure of performance across all possible classification thresholds. In other words, the AUC values measure how accurate the model predictions are, and the values close to 1 are desirable. The measured AUC values, as shown in the below figure, suggest that the Naive Bayes algorithm leads to the best prediction. 
+
 
 
 
