@@ -5,3 +5,10 @@ To stave off the spread of the COVID-19, the authorities in the US employed diff
 ![PDFtoJPG me-1 (1)](https://user-images.githubusercontent.com/60017299/143766094-dcbf4414-e6e6-4f4a-bf4e-f8c5e9671237.jpg)
 
 # Motivation
+The recent COVID-19 pandemic has affected millions of people worldwide and led to the tragic death of many innocent lives. The lack of a certain treatment at the beginning of the pandemic traumatized the populace. As a result, state officials began to impose legislative guidelines, including mandatory use of masks and closure of businesses such as bars and restaurants. Shutting down different businesses has been sporadic due to its adverse economic impact, but obligatory face coverings order is still in effect across the US. In this respect, the effectiveness of facial masks gains further importance and requires scientific studies.
+
+Over the years, the effectivenss of face masks have been studied. However, the cardinal point that has not garnered enough attention is the relationship between the degree of exposure to the virus and its mortality rate. Some researchers presented the idea that the severity of the symptoms correlates with the extent of exposure to justify the high death rate in healthcare workers. Unfortunately, there is no universal trend that can predict the relationship between the dose of the virus and the severity of the resulting symptoms. A Machine Learning (ML) analysis can be instrumental in shedding light on the possible correlation between the public use of masks and changes in the mortality rate. The success of implementing ML and Artificial Intelligence (AI) techniques in the previous pandemics has convinced researchers to use them as precious tools in fighting against the current outbreak.
+
+In the proposed work, utilizing different ML classification algorithms, we aim to unveil how the change in the mortality rate correlates with certain features. The features will be chosen in a way that they can reflect abidance by MM order in different counties.
+
+# Methodology
