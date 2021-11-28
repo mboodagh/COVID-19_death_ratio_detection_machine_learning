@@ -12,3 +12,8 @@ Over the years, the effectivenss of face masks have been studied. However, the c
 In the proposed work, utilizing different ML classification algorithms, we aim to unveil how the change in the mortality rate correlates with certain features. The features will be chosen in a way that they can reflect abidance by MM order in different counties.
 
 # Methodology
+
+We defined the parameter of interest as the ratio of the monthly average number of deaths to the monthly average number of cases, referred to as the death ratio, which can be interpreted as a measure of the severity of the disease.
+The effective date of the executive orders by the governors, requiring mask mandate at all the counties in the three West Coast states of California, Oregon, and Washington, has been identified, which is publicly available. We used the average death ratio one month before and after the order to study the mortality rate.
+
+It is a hard task to directly determine the exact percentage of the population that follows the MM order and uses face coverings. As a result, it is necessary to come up with features that can indirectly capture how likely is an individual to follow the recommended practice. For bridging this gap, four main features including county population, median household income, education level and mask usage based on New York Times survey the are chosen as primary indicators.
