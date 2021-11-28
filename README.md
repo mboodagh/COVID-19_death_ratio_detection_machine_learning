@@ -32,7 +32,7 @@ The effect of each feature on the change of death ratio is visualized by the cor
 
 Furthermore, to get some insight about the possible patterns in the death ratios variations, the average percentage of people who use masks with different frequencies across all the counties experiencing both increase and decrease in their death ratios is illustrated in the below figure. As expected, the average percentage of people who always wear a mask is slightly higher for the decreasing category, but in both categories, the values are the smallest for Oregon. Moreover, the average percentage of people who never use a mask is lower for the decreasing category in all 3 states, which is also intuitively sensible. Although there are no prominent and consistent patterns for the remaining mask usage frequencies, these observations could implicitly and partially describe why there is a small increase in the overall death ratio in Oregon. However, since the mask usage data is from an NYT survey over a limited period (12 days), the observations in  cannot explain the entire underlying phenomenon. According to a recent study, several factors are attributing to the possibility of a person following or not following the health guidelines set by the state officials. Therefore, three features among these parameters plus the aforementioned mask usage as the fourth feature have been used to conduct the current study.
 
-
+<img width="619" alt="Screen Shot 2021-11-28 at 8 34 16 AM" src="https://user-images.githubusercontent.com/60017299/143770087-e464441a-6355-442c-802e-5baf6835a929.png">
 
 
 
